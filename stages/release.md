@@ -8,7 +8,7 @@ Insert your description of the stage here
 
 | Pipeline Stage:<br>Release  | Product Owner  | Client  | Developer  | Senior Manager  | QA Engineer  |
 |----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Release to QA                |    I     |        |   AC     |         |    RV     |
+| Release to QA                |    I     |        |   RA     |         |    RV     |
 | Release to Staging if tests pass    |    I     |         |   RA     |    I     |    V    |
 | Release to Production if tests pass       |    SA     |    I     |   R     |    C     |    V    |
   
