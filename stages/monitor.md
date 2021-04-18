@@ -4,14 +4,15 @@
 
 ## __Pipeline stage:__  Monitor  
 ### __Stage description:__  
-Insert your description of the stage here  
+Monitoring of application, server, OS, hardware etc. This can help track performance issues and user behaviour.
 
-| Pipeline Stage:<br>Monitor  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
-|----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
+| Pipeline Stage:<br>Monitor      | business Users  | system administrators  | testers | PO  | developers  | business support/operations teams  |
+|-------------------------------- |---------------- |----------------------- |-------- |---- |------------ |----------------------------------- |
+| system performance              |       I         |          R             |   I     |  I  |     C       |              A                     |
+| system usage monitoring         |                 |          C             |   I     |     |             |              RA                    |
+| system user access              |       V         |          A             |         |     |             |              R                     |
+| system availability             |       I         |          R             |   I     |  I  |     I       |              A                     |
+| system deployments and patching |       I         |          RA            |   V     |  S  |     I       |              V                     |
   
-  
+
 [Home](../index.md)  

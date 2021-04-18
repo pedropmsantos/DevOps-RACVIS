@@ -6,12 +6,17 @@
 ### __Stage description:__  
 Insert your description of the stage here  
 
-| Pipeline Stage:<br>Plan  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
+| Pipeline Stage:<br>Plan  |Client  | Product Owner  | Developer  | UX  | System Administrator  |
 |----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
-  
+|Gathering Requirements                       |   RACI      |     RACI    |    RI     |     RI   |     RI    |
+| Gathering Feedback                       |     RA    |     RA    |     R    |      R   |      R   |
+| Creating a Backlog                       |     C    |     RA    |         |         |         |
+| Writing Epics                      |         |     I    |      RAV   |         |         |
+| Writing Features                      |         |    I     |     RAV    |     RA    |         |
+| Writing User Stories                      |         |    I     |    RAV     |         |         |
+| Creating a Kanban Board in Jira                     |        |   RA      |         |         |         |
+| Tracking the Project Progress                      |    A    |    RA     |         |         |         |
+| Monitoring the Bottleneck                      |        |    RA     |         |         |         |
+| Solving the Issues                      |    CI     |     RAI    |         |         |         |  
   
 [Home](../index.md)  

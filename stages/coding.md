@@ -4,14 +4,20 @@
 
 ## __Pipeline stage:__  Code  
 ### __Stage description:__  
-Insert your description of the stage here  
+The Coding stage
 
-| Pipeline Stage:<br>Code  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
-|----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
-  
+In this stage, developers start coding. Developers usually have to follow certain coding styles to ensure consistency through out the application.
+This makes understanding the code by any team member much easier. When code is ready, developers make a pull request to the shared source code repository. 
+Team members can review the submitted code and merge it with the master branch by approving the initial pull request.
+
+
+| Pipeline Stage:<br>Code  | Client  | Product owner  | Developer | Tester  |   UX    | System administrator |
+|------------------------- |-------- |--------------- |---------- |-------- |-------- | -------------------- |
+| Implementing features    |         |      AV        |     R     |    CI   |    C    |                      |
+| Writing documentation    |    CI   |      AV        |     RCV   |    R    |         | RCV                  |
+| Refactoring code         |         |                |     RA    |    R    |    I    |                      |
+| Performance testing      |         |                |     C     |    RA   |         |  CV                  |
+| Code review              |         |                |     RVA   |    I    |    I    |                      |
+| Product release          |    I    |     AVIS       |     ARS   |    S    |    CV   |  VI                  |
   
 [Home](../index.md)  
